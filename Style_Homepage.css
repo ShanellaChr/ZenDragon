@@ -39,7 +39,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
 }
 
 .navbar > ul {
@@ -71,12 +70,16 @@ body{
     }
     
     .logo{
-        transform: scale(50%);
-        background: white;
+        transform: scale(40%);
+        margin-left: -5%;
+    }
+    
+    .navbar {
+        margin-left: -7%;
     }
 
     .navbar > ul > li > a {
-        font-size: 25%;
+        font-size: 50%;
         padding: 10px 10px; 
     }
 
